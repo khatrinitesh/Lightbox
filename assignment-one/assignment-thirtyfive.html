@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lightbox</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+	<div id="gallery" class="xpager-gallery">
+        <div><img src="img/thumb/1_thumb.jpg" alt="test" data-img="img/big/1.jpg" data-comment="Test 1" /></div>
+        <div><img src="img/thumb/2_thumb.jpg"  alt="Italien" data-img="img/big/2.jpg" data-comment="Test 2" /></div>
+        <div><img src="img/thumb/3_thumb.jpg"  alt="Test 2" data-img="img/big/3.jpg" /></div>
+        <div><img src="img/thumb/4_thumb.jpg"  alt="Test 1" data-img="img/big/4.jpg" /></div>
+    </div>
+	<script type="text/javascript" src='js/jquery-1.12.0.min.js'></script>	
+	<script type="text/javascript" src='js/lightbox.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $("#gallery").xGallery();
+		});
+	</script>
+</body>
+</html>

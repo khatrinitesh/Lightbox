@@ -1,0 +1,28 @@
+.xpager-gallery div
+{	
+	width: 20%;
+	float: left;
+}
+
+.xpager-gallery div img 
+{
+	width: 100%;
+}
+
+@media (max-width: 1024px){
+	.xpager-gallery div{
+		width: 25%;
+	}
+}
+
+@media (max-width: 768px){
+	.xpager-gallery div{
+		width: 50%;
+	}
+}
+
+@media (max-width: 640px){
+	.xpager-gallery div{
+		width: 100%;
+	}
+}
